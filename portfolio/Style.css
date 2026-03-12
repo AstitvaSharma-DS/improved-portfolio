@@ -67,7 +67,7 @@ body {
         padding: 6px 8px;
     }
     
-    .home {
+    .profile-img {
         min-height: 100vh;
         justify-content: center;
     }
@@ -76,6 +76,8 @@ body {
         height: auto;
         padding: 20px 10px;
         justify-content: center;
+        top: 50%;
+        right: 2%;
     }
     
     .Education-content {
@@ -144,7 +146,7 @@ body {
 
 }
 
-.home-content, .Education-content, .experience-content, .contact-content, .Certifications-content, .Projects-content,.scroller-content {
+.home-content,.profile-img,.Education-content, .experience-content, .contact-content, .Certifications-content, .Projects-content,.scroller-content {
     text-align: center;
     max-width: 800px;
     width: 100%; /* Ensure full width on mobile */
@@ -513,4 +515,5 @@ body {
 
 .profile-links a:hover {
     color: #000;
+
 }
